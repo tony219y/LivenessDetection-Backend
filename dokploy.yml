@@ -1,0 +1,9 @@
+version: "1"
+app: "fastapi-app"
+build:
+  dockerfile: "Dockerfile"
+  context: "."
+deploy:
+  ports: ["8000"]
+  env:
+    - "ENV=production"
