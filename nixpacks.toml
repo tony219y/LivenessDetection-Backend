@@ -1,2 +1,5 @@
 [start]
 cmd = "./start.sh"
+
+[phases.setup]
+nixPkgs = ["mesa"]
