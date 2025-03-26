@@ -1,5 +1,7 @@
 venv/
 __pycache__/
 .env
+
+# Keras
 *.keras
 final_liveness_detection_model_v3.keras
