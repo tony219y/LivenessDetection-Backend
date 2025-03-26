@@ -12,7 +12,3 @@ The following Python packages are essential for model loading and inference:
 - **NumPy** - For numerical operations
 - **OpenCV (headless)** - Image processing library
 - **Pydantic** - Data validation and serialization
-
-## Model Loading
-
-The API loads a pre-trained `.keras` model and performs liveness detection based on input images. Ensure the model file is placed in the appropriate directory before running the server.
